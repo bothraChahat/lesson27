@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acitivity2</title>
+</head>
+<body>
+    <h3>Array Mapping</h3>
+     
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        var num = [15, 20, 12, 5, 3];
+         function myfunction(a){
+           return a*15;
+         }
+         var newarr=num.map(myfunction);
+         document.getElementById("p1").innerHTML=num;
+         document.getElementById("p2").innerHTML=newarr;
+         </script>
+</body>
+</html>
